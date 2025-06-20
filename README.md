@@ -26,21 +26,6 @@ A backend REST API for a **Personal Budget Planner** application built using Spr
 
 ---
 
-## 📁 Project Structure
-SpringBoot-Backend-Personal-Budget-Planner/
-├── src/
-│ └── main/
-│ ├── java/
-│ │ └── com/sanjaicrv/budgetplanner/
-│ │ ├── controller/ # Handles HTTP requests
-│ │ ├── service/ # Business logic layer
-│ │ ├── model/ # POJOs/entities representing DB tables
-│ │ └── repository/ # JPA interfaces for DB access
-│ └── resources/
-│ ├── application.properties # DB config and other Spring settings
-│ └── static/ # (Optional) static files
-├── pom.xml # Maven dependencies
-└── README.md
 ## 📊 Database Schema
 
 This project uses a MySQL database with four primary entities. Below is the table structure based on the ER diagram.
